@@ -1,0 +1,32 @@
+{
+  "name": "blog_page",
+  "version": "1.0.0",
+  "description": "Trang blog bang nodejs",
+  "keywords": [
+    "tio",
+    "blog",
+    "dev"
+  ],
+  "homepage": "https://github.com/Tio-dev71/blog_nodejs#readme",
+  "bugs": {
+    "url": "https://github.com/Tio-dev71/blog_nodejs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tio-dev71/blog_nodejs.git"
+  },
+  "license": "ISC",
+  "author": "tiodev",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
